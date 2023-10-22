@@ -28,16 +28,20 @@ class Program
             switch (choice)
             {
                 case "1":
+                    Console.Clear();
                     CreateLibrary(libraries);
                     break;
                 case "2":
+                    Console.Clear();
                     CreateCategory(categories);
                     break;
                 case "3":
+                    Console.Clear();
                     CreateBook(books,categories);
                     break;
                 case "4":
-                    ChooseLibrary(libraries);
+                    Console.Clear();
+                    ChooseLibrary(libraries, books);
                     break;
                 case "0":
                     return;
@@ -145,7 +149,7 @@ class Program
 
             foreach (var item in books)
             {
-                if (item.Name == name && item.Autor == author)
+                if (item.Name == name || item.Autor == author)
                 {
                     throw new BookAlreadyExistsException();
                 }
@@ -170,11 +174,13 @@ class Program
 
     public static Category ChooseCategory(List<Category> categories)
     {
+
         Console.WriteLine("\nKateqoriya secin:");
         foreach (var item in categories)
         {
             Console.WriteLine(item);
         }
+
 
         bool input = int.TryParse(Console.ReadLine(), out int id);
         if (!input)
@@ -193,7 +199,7 @@ class Program
 
     //Library hissesi
 
-    public static Library ChooseLibrary(List<Library>libraries)
+    public static Library ChooseLibrary(List<Library> libraries, List<Book> books)
     {
         Console.WriteLine("\nKitabxana secin:");
         foreach (var item in libraries)
@@ -211,14 +217,16 @@ class Program
             if (library.Id == id)
             {
                 Console.Clear();
-                LibraryMenu(library);
+                LibraryMenu(library,books);
             }
         }
         throw new LibraryNotFoundException();
     }
 
-    public static void LibraryMenu(Library library)
+
+    public static void LibraryMenu(Library library, List<Book>books)
     {
+
         restartLibraryMenu:
 
         Console.WriteLine("\n----------");
@@ -236,11 +244,15 @@ class Program
             switch (choice1)
             {
                 case "1":
+                    Console.Clear();
+                    AddBookToLibrary(library,books);
                     break;
                 case "2":
+                    Console.Clear();
+                    ListAllBooks(library, books);
                     break;
                 case "3":
-                    break;
+                    return;
                 default: throw new WrongInputException();
             }
 
@@ -254,8 +266,46 @@ class Program
 
     }
 
-    //Library methodlari
 
 
+    public static Book SelectBook(List<Book>books)
+    {
+        Console.WriteLine("\nKitab secin :");
+        foreach (Book book in books)
+        {
+            Console.WriteLine(book);
+        }
+
+
+        bool input = int.TryParse(Console.ReadLine(), out int id);
+        if (!input)
+        {
+            throw new WrongInputException();
+        }
+        foreach (Book book in books)
+        {
+            if (book.Id == id)
+            {
+                return book;
+            }
+        }
+        throw new BookNotFoundException();
+
+    }
+
+    public static void AddBookToLibrary(Library library, List<Book>books)
+    {
+        Book book = SelectBook(books);
+        library.AddBook(book);
+        Console.WriteLine($"{book.Name} adli kitab {library.Name} kitabxanasina elave edildi");
+    }
+
+    public static void ListAllBooks(Library library, List<Book>books)
+    {
+        foreach (Book book in books)
+        {
+            Console.WriteLine(book);
+        }
+    }
 }
 

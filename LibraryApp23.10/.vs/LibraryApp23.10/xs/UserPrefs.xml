@@ -1,31 +1,31 @@
 ﻿<Properties StartupConfiguration="{C68F0619-8DD4-40DE-B1F9-67E3C67D51A5}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.LibraryApp23.10 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.LibraryApp23.10 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="LibraryApp23.10/Program.cs">
     <Files>
-      <File FileName="LibraryApp23.10/Program.cs" Line="45" Column="58" />
-      <File FileName="LibraryApp23.10/Models/Base.cs" Line="22" Column="1" />
-      <File FileName="LibraryApp23.10/Models/Book.cs" Line="22" Column="1" />
-      <File FileName="LibraryApp23.10/Models/Category.cs" Line="13" Column="1" />
-      <File FileName="LibraryApp23.10/Models/Library.cs" Line="28" Column="6" />
-      <File FileName="LibraryApp23.10/Exceptions/BookAlreadyExistsException.cs" Line="13" Column="1" />
-      <File FileName="LibraryApp23.10/Exceptions/BookNotFoundException.cs" Line="10" Column="6" />
-      <File FileName="LibraryApp23.10/Exceptions/CategoryAlreadyExistsException.cs" Line="9" Column="4" />
-      <File FileName="LibraryApp23.10/Exceptions/CategoryNotFoundException.cs" Line="13" Column="1" />
-      <File FileName="LibraryApp23.10/Exceptions/LibraryAlreadyExistsException.cs" Line="7" Column="83" />
-      <File FileName="LibraryApp23.10/Exceptions/LibraryNotFoundException.cs" Line="1" Column="10" />
-      <File FileName="LibraryApp23.10/Exceptions/WrongInputException.cs" Line="4" Column="44" />
+      <File FileName="LibraryApp23.10/Program.cs" Line="196" Column="10" />
+      <File FileName="LibraryApp23.10/Models/Base.cs" />
+      <File FileName="LibraryApp23.10/Models/Book.cs" />
+      <File FileName="LibraryApp23.10/Models/Category.cs" />
+      <File FileName="LibraryApp23.10/Models/Library.cs" />
+      <File FileName="LibraryApp23.10/Exceptions/BookAlreadyExistsException.cs" />
+      <File FileName="LibraryApp23.10/Exceptions/BookNotFoundException.cs" />
+      <File FileName="LibraryApp23.10/Exceptions/CategoryAlreadyExistsException.cs" />
+      <File FileName="LibraryApp23.10/Exceptions/CategoryNotFoundException.cs" />
+      <File FileName="LibraryApp23.10/Exceptions/LibraryAlreadyExistsException.cs" />
+      <File FileName="LibraryApp23.10/Exceptions/LibraryNotFoundException.cs" />
+      <File FileName="LibraryApp23.10/Exceptions/WrongInputException.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LibraryApp23.10" expanded="True">
             <Node name="LibraryApp23.10" expanded="True">
-              <Node name="Models" expanded="True" />
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -33,5 +33,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
 </Properties>

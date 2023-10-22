@@ -12,11 +12,6 @@ namespace LibraryApp23._10.Models
             Count++;
             Id = Count;
         }
-
-        public override string ToString()
-        {
-            return $"{Id}-{Name}-{Autor}";
-        }
     }
 }
 
