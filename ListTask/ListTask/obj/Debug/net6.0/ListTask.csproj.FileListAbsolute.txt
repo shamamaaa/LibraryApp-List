@@ -1,0 +1,15 @@
+/Users/shamamaguliyeva/Desktop/ListTask/ListTask/bin/Debug/net6.0/ListTask
+/Users/shamamaguliyeva/Desktop/ListTask/ListTask/bin/Debug/net6.0/ListTask.deps.json
+/Users/shamamaguliyeva/Desktop/ListTask/ListTask/bin/Debug/net6.0/ListTask.runtimeconfig.json
+/Users/shamamaguliyeva/Desktop/ListTask/ListTask/bin/Debug/net6.0/ListTask.dll
+/Users/shamamaguliyeva/Desktop/ListTask/ListTask/bin/Debug/net6.0/ListTask.pdb
+/Users/shamamaguliyeva/Desktop/ListTask/ListTask/obj/Debug/net6.0/ListTask.csproj.AssemblyReference.cache
+/Users/shamamaguliyeva/Desktop/ListTask/ListTask/obj/Debug/net6.0/ListTask.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shamamaguliyeva/Desktop/ListTask/ListTask/obj/Debug/net6.0/ListTask.AssemblyInfoInputs.cache
+/Users/shamamaguliyeva/Desktop/ListTask/ListTask/obj/Debug/net6.0/ListTask.AssemblyInfo.cs
+/Users/shamamaguliyeva/Desktop/ListTask/ListTask/obj/Debug/net6.0/ListTask.csproj.CoreCompileInputs.cache
+/Users/shamamaguliyeva/Desktop/ListTask/ListTask/obj/Debug/net6.0/ListTask.dll
+/Users/shamamaguliyeva/Desktop/ListTask/ListTask/obj/Debug/net6.0/refint/ListTask.dll
+/Users/shamamaguliyeva/Desktop/ListTask/ListTask/obj/Debug/net6.0/ListTask.pdb
+/Users/shamamaguliyeva/Desktop/ListTask/ListTask/obj/Debug/net6.0/ListTask.genruntimeconfig.cache
+/Users/shamamaguliyeva/Desktop/ListTask/ListTask/obj/Debug/net6.0/ref/ListTask.dll
